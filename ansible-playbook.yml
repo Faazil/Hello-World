@@ -2,4 +2,4 @@
  - hosts: localhost
    tasks:
      - name: print date
-      command: date
+       command: date

@@ -3,3 +3,6 @@
    tasks:
      - name: print date
        command: date
+       register: date_time
+     - debug:
+         var: date_time

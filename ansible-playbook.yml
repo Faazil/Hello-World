@@ -5,4 +5,4 @@
        command: date
        register: date_time
      - debug:
-         var: date_time
+         var: date_time.stdout

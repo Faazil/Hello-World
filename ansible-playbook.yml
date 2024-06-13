@@ -5,4 +5,4 @@
        command: hostname
        register: hostname_output
      - debug:
-         var: hostname_output
+         var: hostname_output.stdout_lines

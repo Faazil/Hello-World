@@ -1,8 +1,8 @@
 ---
  - hosts: localhost
    tasks:
-     - name: print date
-       command: date
-       register: date_time
+     - name: print hostname
+       command: hostname
+       register: hostname_output
      - debug:
-         var: date_time.stdout
+         var: hostname_output

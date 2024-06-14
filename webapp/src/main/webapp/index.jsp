@@ -15,7 +15,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: #333;
+            background-color: #ff5722; /* Bright orange */
             padding: 1rem;
         }
         .navbar a {
@@ -24,7 +24,7 @@
             padding: 0.5rem 1rem;
         }
         .navbar a:hover {
-            background-color: #575757;
+            background-color: #ffccbc; /* Lighter shade of orange */
         }
         .hero {
             height: 90vh;
@@ -39,13 +39,15 @@
         .hero h1 {
             font-size: 4rem;
             margin: 0;
+            color: #ffeb3b; /* Bright yellow */
         }
         .hero p {
             font-size: 1.5rem;
             margin: 1rem 0 0;
+            color: #ffeb3b; /* Bright yellow */
         }
         .footer {
-            background-color: #333;
+            background-color: #ff5722; /* Bright orange */
             color: white;
             text-align: center;
             padding: 1rem;
@@ -78,5 +80,3 @@
     </div>
 </body>
 </html>
-
-

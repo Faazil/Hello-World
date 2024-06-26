@@ -71,7 +71,7 @@
     </div>
     <div class="hero">
         <div>
-            <h1>Welcome to DevOps Training -Part2</h1>
+            <h1>Welcome to DevOps Training -Part3 </h1>
             <p>Your success is our priority</p>
         </div>
     </div>

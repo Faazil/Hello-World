@@ -3,84 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attractive HTML Page</title>
+    <title>Welcome to [Your Demo Name]</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-        .navbar {
+            background-color: #f0f0f0;
             display: flex;
-            justify-content: space-between;
+            min-height: 100vh;
             align-items: center;
-            background-color: #ff5722; /* Bright orange */
-            padding: 1rem;
-        }
-        .navbar a {
-            color: white;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-        }
-        .navbar a:hover {
-            background-color: #ffccbc; /* Lighter shade of orange */
-        }
-        .hero {
-            height: 90vh;
-            background: url('https://via.placeholder.com/1500') no-repeat center center/cover;
-            display: flex;
             justify-content: center;
-            align-items: center;
-            color: white;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             text-align: center;
-            padding: 2rem;
         }
-        .hero h1 {
-            font-size: 4rem;
-            margin: 0;
-            color: #ffeb3b; /* Bright yellow */
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 15px;
         }
-        .hero p {
-            font-size: 1.5rem;
-            margin: 1rem 0 0;
-            color: #ffeb3b; /* Bright yellow */
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.5;
+            margin-bottom: 20px;
         }
-        .footer {
-            background-color: #ff5722; /* Bright orange */
-            color: white;
-            text-align: center;
-            padding: 1rem;
-            position: absolute;
-            width: 100%;
-            bottom: 0;
+
+        .animated-text {
+            font-size: 1.4em;
+            animation: color-change 5s infinite alternate ease-in-out;
+        }
+
+        @keyframes color-change {
+            0% {
+                color: #3498db;
+            }
+            50% {
+                color: #f1c40f;
+            }
+            100% {
+                color: #3498db;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="navbar">
-        <div class="logo">
-            <a href="#">Logo</a>
-        </div>
-        <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
-        </div>
-    </div>
-    <div class="hero">
-        <div>
-            <h1>Welcome to DevOps Training -Part4 </h1>
-            <p>Your success is our priority</p>
-        </div>
-    </div>
-    <div class="footer">
-        <p>&copy; 2024 Company Name. All rights reserved.</p>
+    <div class="container">
+        <h1>Welcome to <span class="animated-text">[Your Demo Name]</span></h1>
+        <p>This is a creative demo showcasing the possibilities of your deployment. Feel free to explore and customize it further.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+            <li> Attractive and user-friendly design</li>
+            <li> Creative use of animations</li>
+            <li> Clean and well-structured code</li>
+            <li> Easy to customize and expand upon</li>
+        </ul>
     </div>
 </body>
 </html>
-
-
-
-

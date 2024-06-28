@@ -55,7 +55,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to <span class="animated-text">[Your Demo Name]</span></h1>
+        <h1>Welcome to <span class="animated-text">Welcome to CICD Demo class</span></h1>
         <p>This is a creative demo showcasing the possibilities of your deployment. Feel free to explore and customize it further.</p>
         <p><strong>Key Features:</strong></p>
         <ul>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to CICD Demo class</title>
+    <title>Welcome to CICD Demo class Pavani</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -55,7 +55,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to <span class="animated-text">Welcome to CICD Demo class</span></h1>
+        <h1>Welcome to <span class="animated-text">Welcome to CICD Demo class - Pavani </span></h1>
         <p>This is a creative demo showcasing the possibilities of your deployment. Feel free to explore and customize it further.</p>
         <p><strong>Key Features:</strong></p>
         <ul>
